@@ -1,0 +1,142 @@
+1. rest controller vs controller
+
+----------------------------------
+You will learn:
+React frontend basics
+REST APIs
+Spring Boot backend development
+MySQL database integration
+Layered architecture
+CRUD operations
+JPA and Hibernate basics
+Frontend ↔ Backend communication
+-----------------------------------
+Final Architecture You Will Build
+React Frontend
+      ↓ HTTP Requests
+Spring Boot Controller
+      ↓
+Service Layer
+      ↓
+Repository Layer
+      ↓
+MySQL Database
+-----------------------------------
+Phase 1 — Backend Fundamentals
+1. Spring Boot Project Structure
+com.todo
+ ├── controller
+ ├── service
+ ├── repository
+ ├── entity
+
+2. REST APIs
+GET request
+POST request
+PUT request
+DELETE request
+These are the core HTTP methods used in real applications.
+
+3. Entity Layer
+
+how Java objects map to database tables,
+what ORM means,
+why entities are needed.
+
+4. Repository Layer
+
+how database operations happen,
+how JPA removes manual SQL writing.
+
+5. Service Layer
+
+business logic handling,
+clean architecture,
+why controllers should stay simple.
+
+6. Controller Layer
+
+API endpoint creation,
+request handling,
+JSON response handling.
+
+7. MySQL Integration
+
+database connection,
+application.properties configuration,
+how Spring Boot connects to MySQL.
+
+8. JPA + Hibernate
+
+what Hibernate does internally,
+object-to-table mapping,
+automatic SQL generation.
+_______________________________________________________
+Phase 2 — Frontend Fundamentals
+
+1. React Functional Components
+2. useState
+You will learn:
+local state management,
+form handling,
+UI updates.
+3. useEffect
+You will learn:
+API calling after component loads.
+
+4. Fetch API
+
+backend communication,
+GET/POST/PUT/DELETE requests.
+
+5. Component Rendering
+
+
+how React updates UI dynamically.
+
+_________________________________________
+Phase 3 — Full Stack Communication
+
+You will learn complete frontend-backend flow:
+
+React
+  ↓
+Fetch API
+  ↓
+Spring Boot Controller
+  ↓
+Service
+  ↓
+Repository
+  ↓
+MySQL
+____________________________________________
+Coding begins...
+
+1.Spring initializer
+	Dependencies- 
+	Spring Web(Used for: REST APIs, Controllers, HTTP requests), 
+	Spring Data JPA(Used for: database operations, ORM, repository layer) 
+	MySQL Driver(Used for: connecting Spring Boot to MySQL)
+2.Open application in IDE
+3.Create,use database & create table tasks(id, title, desc, completed)
+4.Configure application.properties
+	datasource.url- database connection
+	ddl-auto=update- automatic table updates
+	show-sql=true- showing generated SQL queries in console
+5.Create packages- controller, service, repository, entity
+6.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
